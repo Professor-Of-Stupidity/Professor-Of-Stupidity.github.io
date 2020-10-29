@@ -1,0 +1,65 @@
+@media screen and (max-width: 700px) {
+  #navbar {   
+    flex-direction: column;
+  }
+}
+
+
+#searchbar
+{
+    display: flex;
+    color: white;
+    background-color: maroon;
+    padding: 20px;
+    font-weight: 800;
+    font-size: larger;
+
+}
+
+#searchbar a
+{
+    background-color: white;
+    color: black;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#searchbar input
+{
+    margin-left: 10px;
+    width: 60%;
+}
+
+#topbar
+{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border-color: black;
+    text-align: center;
+}
+#navbar {
+  display: flex;
+  background-color: black;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+#navbar a {
+	margin-top: 0px;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
