@@ -4,15 +4,25 @@
   }
 }
 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 #searchbar
 {
     display: flex;
+    flex-direction: row;
     color: white;
     background-color: maroon;
     padding: 20px;
     font-weight: 800;
     font-size: larger;
+    margin-top: 0px;
+    align-content: center;
+    margin-bottom: 20px;
 
 }
 
@@ -29,6 +39,7 @@
 
 #searchbar input
 {
+    align-items: center;
     margin-left: 10px;
     width: 60%;
 }
@@ -46,6 +57,7 @@
   background-color: black;
   border-bottom-style: solid;
   border-bottom-color: white;
+  margin-bottom: 0px;
 }
 
 #navbar a {
@@ -62,4 +74,186 @@
 #navbar a:hover {
   background-color: white;
   color: black;
+}
+.book-pics
+{
+  ;
+}
+.book-pics img
+{
+  height: 300px;
+  margin: 40px 20px 40px 20px;
+}
+
+.book-pics a{
+  margin: 40px 20px 40px 20px;
+  font-weight: 2em;
+  text-decoration: none;
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  text-align: center;
+  padding-top: 140px;
+  float: right;
+  color: yellow;
+}
+
+footer
+{
+  background-color: grey;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+#profile-pic
+{
+  flex:1;
+  margin: 20px;
+  align-self: center;
+  border: 5px solid #46a6ff;
+  border-width: 10px;
+}
+
+#usrinfo
+{
+  flex:2.8;
+  margin: 20px;
+  border: 10px dashed crimson;
+  padding: 10px 0px 5px 50px;
+  background-color: rgb(209, 209, 209);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#usrinfo ul
+{
+  padding: 10px;
+}
+
+.orders
+{
+  display: flex;
+  margin: 10px;
+}
+
+.orders .order-details
+{
+  margin-left: 50px;
+}
+
+.orders .order-details .book-name
+{
+  font-size: 2em; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  margin: 10px 10px 10px 0px;"
+}
+
+.orders .order-details .price
+{
+  font-size: 2em; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  margin: 10px 10px 10px 0px;"
+}
+
+.orders .buybutton
+{
+  margin: 30px 0px 0px 0px;
+}
+.orders .buybutton a 
+{
+  background-color: orange;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#buyall
+{
+ margin-left: 45%;
+ margin-top: 50px;
+}
+#buyall a
+{
+  background-color: green;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#regpagebody
+{
+  display: flex;
+}
+
+#signup
+{
+  flex:1;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(44, 44, 44);
+  padding: 40px;
+  padding-left: 70px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border:10px solid cyan;
+}
+
+#login
+{
+  flex:1;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(44, 44, 44);
+  vertical-align: middle;
+  padding: 40px;
+  padding-top: 150px;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border:10px solid yellow;
+}
+
+#or
+{
+  flex: 1;
+  text-align: center;
+  padding: 100px;
+  font-weight: bolder;
+  font-size: 6em;
+  color: white;
+}
+
+#login a{
+  margin-top: 20px;
+  background-color: orange;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#signup a{
+  background-color: crimson;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
 }
